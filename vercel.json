@@ -6,11 +6,11 @@
     },
     {
       "path": "/api/cron/run-active-sessions",
-      "schedule": "*/1 * * * *"
+      "schedule": "0 0 * * *"
     },
     {
       "path": "/api/cron/run-currency-update",
-      "schedule": "*/15 * * * *"
+      "schedule": "0 0 * * *"
     }
   ]
 }
