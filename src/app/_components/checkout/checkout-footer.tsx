@@ -9,7 +9,7 @@ const raleway = Raleway({ subsets: ["latin"] });
 type Props2 = {
   info: CheckoutPageType;
 };
-const Footer2 = ({ info }: Props2) => {
+const Footer2 = ({ info }: any) => {
   return (
     <footer className="flex flex-col  w-full">
       <div

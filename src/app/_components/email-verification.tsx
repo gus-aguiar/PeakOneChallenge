@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "./article/footer2";
+import Footer2 from "./checkout/checkout-footer";
 import Image from "next/image";
 import Link from "next/link";
 import { siteLogo, siteProduct, emailVerificationLink } from "@/lib/site-info";
@@ -28,7 +28,7 @@ const EmailVerificationPage = () => {
           Checkout These 67 Lifehacks that Will Boost the Quality of Your Life!
         </Link>
       </div>
-      <Footer />
+      <Footer2 />
     </div>
   );
 };
