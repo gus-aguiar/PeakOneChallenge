@@ -1,0 +1,5 @@
+{
+    "editor.rename.enablePreview": false,
+    "workbench.editor.enablePreview": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
