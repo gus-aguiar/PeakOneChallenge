@@ -12,5 +12,16 @@
       "path": "/api/cron/run-currency-update",
       "schedule": "0 0 * * *"
     }
-  ]
+  ],
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "build": {
+    "env": {
+      "NODE_VERSION": "18.x"
+    }
+  }
 }
