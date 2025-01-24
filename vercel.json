@@ -1,18 +1,4 @@
 {
-  "crons": [
-    {
-      "path": "/api/cron/run-delete-sessions",
-      "schedule": "0 0 * * *"
-    },
-    {
-      "path": "/api/cron/run-active-sessions",
-      "schedule": "0 0 * * *"
-    },
-    {
-      "path": "/api/cron/run-currency-update",
-      "schedule": "0 0 * * *"
-    }
-  ],
   "builds": [
     {
       "src": "package.json",
